@@ -1,0 +1,65 @@
+body{
+    background-image: url(http://localhost/Proyecto/img/mic.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    
+    background-color: rgb(8, 8, 8);
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    padding: 0.1px;
+    height: 50%;
+    width: 40%;
+    margin-top: 150px;
+    margin-left: 500px;
+    opacity: 0.5;
+    filter: alpha(opacity=50%);
+    
+}
+
+    div:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80%)
+    }
+
+.logo{
+
+    display: block;
+    margin-left: 1515px;
+
+}
+
+p {
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: 1.5em;
+}
+
+input[type=text], input[type=password]{
+    width: 35%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+
+    border: 2.5px solid lightseagreen;
+}
+
+input[type=submit], input[type=reset]{
+    width: 15%;
+    padding: 4px;
+    color: whitesmoke;
+    font-family: fantasy;
+    background-color: rgb(8, 8, 8);
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: lightseagreen;
+    border: 0px;
+}
